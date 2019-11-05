@@ -58,10 +58,19 @@ body {
 }
 
 h1 {
+	color: #3d383e;
   position: relative;
   font-size: 56px;
   font-weight: bold;
-  margin: 50px auto 100px auto;
+  margin: 60px auto 10px auto;
+  text-align: center;
+}
+
+h6 {
+	color: #3d383e;
+  position: relative;
+  font-size: 24px;
+  margin: 0 auto 100px auto;
   text-align: center;
 }
 
@@ -81,7 +90,7 @@ h1 {
   background-color: #84D2F6;
   border: 2px #4184A4 solid;
   border-radius: 5px;
-  box-shadow: 0 9px #011f4b;
+  box-shadow: 0 6px #1b4e98;
   display: grid;
   font-weight: bold;
   height: 150px;
@@ -93,7 +102,7 @@ h1 {
 }
 
 .giftbox:active {
-	box-shadow: 0 5px #011f4b;
+	box-shadow: 0 2px #1b4e98;
   transform: translateY(4px);
 }
 
@@ -101,4 +110,9 @@ p {
   font-size: 22px;
   line-height: 1.5;
   text-align: center;
+}
+
+a {
+	color: #3d383e;
+	text-decoration: none;
 }
