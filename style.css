@@ -87,14 +87,60 @@ h6 {
 
 .giftbox {
   align-content: center;
-  background-color: #84D2F6;
-  border: 2px #4184A4 solid;
-  border-radius: 5px;
-  box-shadow: 0 6px #1b4e98;
+	background-size: contain;
+	background-repeat: no-repeat;
   display: grid;
   font-weight: bold;
   height: 150px;
   width: 150px;
+}
+
+.g01 {
+	background-image: url(./gift-boxes/01.png);
+}
+
+.g02 {
+	background-image: url(./gift-boxes/02.png);
+}
+
+.g03 {
+	background-image: url(./gift-boxes/03.png);
+}
+
+.g04 {
+	background-image: url(./gift-boxes/04.png);
+}
+
+.g05 {
+	background-image: url(./gift-boxes/03.png);
+}
+
+.g06 {
+	background-image: url(./gift-boxes/06.png);
+}
+
+.g07 {
+	background-image: url(./gift-boxes/07.png);
+}
+
+.g08 {
+	background-image: url(./gift-boxes/08.png);
+}
+
+.g09 {
+	background-image: url(./gift-boxes/09.png);
+}
+
+.g10 {
+	background-image: url(./gift-boxes/10.png);
+}
+
+.g11 {
+	background-image: url(./gift-boxes/11.png);
+}
+
+.g12 {
+	background-image: url(./gift-boxes/12.png);
 }
 
 a:hover,
@@ -103,14 +149,15 @@ a:hover,
 }
 
 .giftbox:active {
-	box-shadow: 0 2px #1b4e98;
   transform: translateY(4px);
 }
 
 p {
+	color: rgba(211,166,224,.65);
   font-size: 22px;
   line-height: 1.5;
   text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 a {
@@ -136,6 +183,8 @@ h5 {
 	left: 160px;
 	color: white;
 }
+
+/* DAY 2------------------------------------------- */
 
 .dog-container {
 	display: flex;
