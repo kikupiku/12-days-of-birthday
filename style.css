@@ -184,13 +184,13 @@ h5 {
 	color: white;
 }
 
-/* DAY 2------------------------------------------- */
+/* DAY 2 and 5------------------------------------------------------- */
 
 .dog-container {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	width: 60%;
+	width: 50%;
 	margin: 0 auto;
 }
 
@@ -199,9 +199,33 @@ h5 {
 	border-radius: 10%;
 	height: 180px;
 	margin: 5px;
+	transition: transform .5s ease;
 	width: auto;
 }
 
 .dog-container img:hover {
-	opacity: 0.7;
+opacity: 0.7;
+}
+
+.dog-container img:active {
+	transform: scale(3);
+	opacity: 1;
+}
+
+/* DAY 4--------------------------------------------------------------- */
+
+#heather {
+	margin-top: 50px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+/* DAY 8--------------------------------------------------------------- */
+
+.vid-wrapper {
+	margin: 100px auto 100px auto;
+	position: relative;
+	width: 560px;
 }
