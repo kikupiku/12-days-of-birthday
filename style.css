@@ -148,7 +148,8 @@ a:hover,
   cursor: pointer;
 }
 
-.giftbox:active {
+.giftbox:active,
+.heart-link:active {
   transform: translateY(4px);
 }
 
@@ -229,10 +230,24 @@ strong {
 	font-weight: bold;
 }
 
+/* DAY 7----------------------------------------------------------------- */
+
+.heart-link {
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+}
+
 /* DAY 8--------------------------------------------------------------- */
 
 .vid-wrapper {
 	margin: 100px auto 100px auto;
 	position: relative;
 	width: 560px;
+}
+
+/* DAY 9------------------------------------------------------------- */
+
+.gallery {
+	height: 70%;
 }
