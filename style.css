@@ -251,3 +251,11 @@ strong {
 .gallery {
 	height: 70%;
 }
+
+.lucky-lachs {
+	width: 300px;
+	height: auto;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+}
